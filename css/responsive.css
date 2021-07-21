@@ -247,7 +247,7 @@ section#app .box-app .carousel-indicators li {padding:15px 0}
     section#app .box-app .carousel-indicators li span {width: 40px;height: 40px;margin-right: 5px;}
     section#app .box-app .carousel-indicators li span:before {width: 30px; height: 30px;}
     section#app .box-app .carousel-indicators li.active span:before {width: 40px;height: 40px;}
-    section#app .box-app .carousel-indicators li.active,section#app .box-app .carousel-indicators li {font-size: 100%;min-height: auto; padding: 13px 0;}
+    section#app .box-app .carousel-indicators li.active,section#app .box-app .carousel-indicators li {font-size: 100%;min-height: 40px; padding: 0!important;}
     section#app .box-app .carousel-indicators {width: 30%;}
     section#app .box-app .box-background {width: 50%;margin-right: 20px;}
     section#app .box-app .carousel-inner{width: auto;height: 92%;margin: 0;left: 6%;right: 6.6%;top: 6%;bottom: 6%; border-radius: 21px;}
