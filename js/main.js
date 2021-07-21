@@ -144,7 +144,7 @@ $(document).ready(function(){
             //
             // });
         } else{
-            $(".box-background").click(() => $(".carousel").carousel("next"));
+            // $(".box-background").click(() => $(".carousel").carousel("next"));
         }
     }
     // 
