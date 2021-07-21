@@ -131,10 +131,11 @@ $(document).ready(function(){
     function swipMobile(){
         let widthOffset = $(document).width();
         console.log(widthOffset);
-        if(widthOffset > 1080){
-            $(".box-background").click(() => $(".carousel").carousel("next"));
-        }
+        // if(widthOffset > 1080){
+        //     $(".box-background").click(() => $(".carousel").carousel("next"));
+        // }
     }
+    $(".box-background").click(() => $(".carousel").carousel("next"));
     // 
     let d = new Date();
     document.getElementById("get-year").innerHTML = d.getFullYear();
