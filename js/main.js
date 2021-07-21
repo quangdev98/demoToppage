@@ -131,20 +131,8 @@ $(document).ready(function(){
     function swipMobile(){
         let widthOffset = $(document).width();
         console.log(widthOffset);
-        if(widthOffset <= 1080){
-            // $(".carousel").swipe({
-            //
-            //     swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-            //
-            //     if (direction == 'left') $(this).carousel('next');
-            //     if (direction == 'right') $(this).carousel('prev');
-            //
-            //     },
-            //     allowPageScroll:"vertical"
-            //
-            // });
-        } else{
-            // $(".box-background").click(() => $(".carousel").carousel("next"));
+        if(widthOffset > 1080){
+            $(".box-background").click(() => $(".carousel").carousel("next"));
         }
     }
     // 
